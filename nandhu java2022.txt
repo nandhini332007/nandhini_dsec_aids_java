@@ -1,0 +1,297 @@
+import java.util.*;
+    public class main
+{
+    public static void main(String[] args) {
+        Scanner sc =new Scanner(System.in);
+        System.out.println("enter integer number;");
+        int a = sc.nextInt();
+        sc.nextLine();
+        System.out.println("enter string;");
+        String S = sc.nextLine();
+        System.out.println("enter float number;");
+        float f = sc.nextFloat();
+        
+        System.out.println("hello world");
+        System.out.println(a);
+        System.out.println(S);
+        System.out.println(f);
+    }
+}
+
+EMPLOYEE DETAILES
+
+
+
+import java.util.*;
+    public class main
+{
+    public static void main(String[] args) {
+        Scanner sc =new Scanner(System.in);
+        int a = sc.nextInt();
+        sc.nextLine();
+        String s = sc.nextLine();
+        String b = sc.nextLine();
+        float f = sc.nextFloat();
+        int c = sc.nextInt();
+        
+        System.out.println("EMPLOYEE DETAILES");
+        System.out.println(a);
+        System.out.println(s);
+        System.out.println(b);
+        System.out.println(f);
+        System.out.println(c);
+    }
+}
+
+task 3
+
+import java.util.*;
+    public class main
+{
+    public static void main(String[] args) {
+        Scanner sc =new Scanner(System.in);
+        
+        
+        String s = sc.nextLine();
+        String b = sc.nextLine();
+        String c = sc.nextLine();
+        
+        
+        System.out.println(s);
+        System.out.println(b);
+        System.out.println(c);
+        
+    }
+}
+
+task4
+        System.out.print("enter the collage name;");
+        String s = sc.nextLine();
+        System.out.print("enter the department;");
+        
+        String b = sc.nextLine();
+        System.out.print("course;");
+        String c = sc.nextLine();
+        
+        
+        System.out.println(s);
+        System.out.println(b);
+        System.out.println(c);
+        
+    }
+}
+
+task5
+import java.util.*;
+    public class main
+{
+    public static void main(String[] args) {
+        System.out.print("java is simple is powerful");
+
+        
+
+        
+    }
+}
+
+task 5
+import java.util.*;
+    public class main
+{
+    public static void main(String[] args) {
+     Scanner sc= new Scanner(System.in); 
+    System.out.print("enter name;");
+    String s = sc.nextLine();
+    System.out.print("enter cource;");   
+    String b = sc.nextLine ();
+    System.out.print("enter level;"); 
+    String c =sc.nextLine();
+
+            System.out.println(s) ;
+            System.out.println(b) ;   
+            System.out.println(c) ; 
+        
+
+        
+        
+        
+
+        
+    }
+}
+
+task6
+import java.util.*;
+    public class main
+{
+    public static void main(String[] args) {
+     Scanner sc= new Scanner(System.in); 
+    System.out.print("enter population;");
+    String s = sc.nextLine();
+    System.out.print("enter product price ;");   
+    String b = sc.nextLine ();
+    System.out.print("enter blood group system;"); 
+    String c =sc.nextLine();
+    System.out.print("enter the account verified;") ;
+     String d = sc.nextLine();
+    System.out.print("employee name;")   ;
+     String f= sc.nextLine();   
+
+            System.out.println(s) ;
+            System.out.println(b) ;   
+            System.out.println(c) ; 
+            System.out.println(d) ; 
+            System.out.println(f) ; 
+        
+
+        
+
+        
+        
+        
+
+        
+    }
+}
+task7
+import java.util.*;
+
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter the age:");
+        int b = sc.nextInt();
+        sc.nextLine();
+
+        System.out.println("Enter the city:");
+        String s = sc.nextLine();
+
+        System.out.println("Age: " + b);
+        System.out.println("City: " + s);
+
+        sc.close();
+    }
+}
+task 9
+import java.util.*;
+
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter the student name:");
+        String b = sc.nextLine();
+
+        System.out.println("Enter the roll number:");
+        int s = sc.nextInt();
+        sc.nextLine();
+
+        System.out.println("Enter the department:");
+        String c = sc.nextLine();
+
+        System.out.println("Enter the percentage:");
+        float d = sc.nextFloat();
+
+        System.out.println("Student Name: " + b);
+        System.out.println("Roll Number: " + s);
+        System.out.println("Department: " + c);
+        System.out.println("Percentage: " + d);
+
+        sc.close();
+    }
+}
+task10
+import java.util.*;
+
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter the student name:");
+        String b = sc.nextLine();
+
+        System.out.println("Enter the movie:");
+        String s = sc.nextLine();
+        sc.nextLine();
+
+        System.out.println("Enter the tickets:");
+        int c = sc.nextInt();
+
+        System.out.println("Enter the tickets price:");
+        float d = sc.nextFloat();
+
+        System.out.println("Student Name: " + b);
+        System.out.println("movie: " + s);
+        System.out.println("tickets: " + c);
+        System.out.println("ticket price: " + d);
+
+        sc.close();
+
+}
+}
+task 11
+import java.util.*;
+
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("online shoping address");
+        System.out.println("Enter the customer  name:");
+        String b = sc.nextLine();
+
+        System.out.println("Enter the adderess:");
+        String s = sc.nextLine();
+        sc.nextLine();
+
+        System.out.println("Enter the city:");
+        String c = sc.nextLine();
+
+        System.out.println("Enter the pin code:");
+        String d = sc.nextLine();
+
+        System.out.println("customer Name: " + b);
+        System.out.println("address: " + s);
+        System.out.println("city: " + c);
+        System.out.println("pin code: " + d);
+
+        sc.close();
+
+}
+}task 12
+import java.util.*;
+
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Hosptial patient record");
+        System.out.println("Enter the patient  name:");
+        String b = sc.nextLine();
+
+        System.out.println("Enter the patient id:");
+        int s = sc.nextInt();
+        sc.nextLine();
+
+        System.out.println("Enter the age:");
+        String c = sc.nextLine();
+
+        
+        System.out.println("Enter the body temperature:");
+        floate = sc.nextfloat();
+
+        System.out.println("Enter the admitted status:");
+        String f = sc.nextLine();
+        
+        
+
+        System.out.println("patient Name: " + b);
+        System.out.println("patient id: " + s);
+        System.out.println("age: " + c);
+        System.out.println("temperature: " + e);
+        System.out.println("temperature: " + f);
+        
+
+        sc.close();
+
+}
+}
