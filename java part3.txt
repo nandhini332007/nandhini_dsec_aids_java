@@ -1,0 +1,175 @@
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in)
+            int bank balance=sc.nextInt();
+        if(balance<1000){
+            
+        
+            System.out.println("low balance alter");
+        }   
+        
+    }
+}
+
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the score:");
+            int score=sc.nextInt();
+        if(score% 2!=0){
+            
+        
+            System.out.println("bonus unlocked");
+        }   
+        
+    }
+}
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the temperature:");
+            int temperature=sc.nextInt();
+        if(temperature>=30){
+            
+        
+            System.out.println("warm day");
+        } else{
+          System.out.println("cool day");
+        }  
+        
+    }
+}
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the last digit:");
+            int digit=sc.nextInt();
+        int positive_number = Math.abs(digit);
+        int last_digit=positive_number % 10;
+        if(last_digit == 7){
+            
+        
+            System.out.println("luck ending");
+        } else{
+          System.out.println("not a luck ending");
+        }  
+        
+    }
+}
+
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the perches amount:");
+            int amount =sc.nextInt();
+        if(amount>=5000){
+            
+        
+            System.out.println("Reusable Bag Available");
+        }else{
+          System.out.println("No Free Bag");
+        }  
+        
+    }
+}
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the mark details:");
+            int mark =sc.nextInt();
+        if(mark>=90){
+             System.out.println("a");
+        
+        }else if(mark>=75&& mark<=89) {
+            
+        
+        
+          System.out.println("b");
+        }else if(mark>=60&& mark<=74)  {
+          System.out.println("c"); 
+        }else if(mark>=35&& mark<=59) {
+            
+        } else{
+        System.out.println("Invalid Mark");
+}
+    }
+}
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the  consumed:");
+            int consumed =sc.nextInt();
+        if(consumed<100){
+             System.out.println("Low Consumption");
+        
+        }else if(consumed>=100&& consumed<=199) {
+            
+        
+        
+          System.out.println("Medium Consumption");
+        }else if(consumed>=200&& consumed<=299)  {
+          System.out.println("High Consumption"); 
+        }else if(consumed>=300&& consumed<=399) {
+            System.out.print("Very High Consumption");
+        } else{
+        System.out.println("Invalid Mark");
+}
+    }
+}
+
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        
+           boolean user name = sc.nextboolean();
+           boolean password correct = sc.nextboolean();
+        if( user name){
+            if(password correct){
+             System.out.println("Login Successful");
+            }else{
+             System.out.println("Incorrect Password");  
+     }else{
+             System.out.println("Invalid Username");
+            }
+             
+    }      
+    }
+}
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        System.out.println("enter the number");
+        int number_n1 = sc.nextInt();
+        System.out.println("enter the number");
+        int number_n2 = sc.nextInt();
+        System.out.println("operator");
+        String operation = sc .nextLine();
+        Switch(operation){
+            case1:
+            add= number_n1+number_n2;
+            System.out.println("add");
+            break;
+            case2:
+            sub= number_n1-number_n2;
+            System.out.println("sub");
+            break;
+            case3:
+            mult= number_n1*number_n2;
+            System.out.println("mult");
+            break;
+            case4:
+            division= number_n1/number_n2;
+            System.out.println("division");
+            break;
+            default:
+                System.out.println("invalid value");
+        
+       }    
+        
+    }
+}     
+
+  
