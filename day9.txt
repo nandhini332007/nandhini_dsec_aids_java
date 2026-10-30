@@ -1,0 +1,292 @@
+import java.util.Scanner;
+ public class Main {
+    public static void main(String[] args) {
+     Scanner sc = new Scanner(System.in) ;  
+        System.out.println("Enter a sentence:");
+        String s = sc.nextLine();
+        StringBuild sb = new StringBulider(s);
+        For(int i = 0;i<Sb.length();i++){
+            if(sb.charAt(i) == ''){
+             sb.delete CharAt(i);
+            }
+        }
+    }
+}
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter a sentence:");
+        String s = sc.nextLine();
+
+        StringBuilder sb = new StringBuilder("hello");
+
+        sb.append("java");
+
+        System.out.println(sb);
+    }
+}
+OUTPUT
+Enter a sentence:
+HELLO
+hellojava
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        StringBuilder sb = new StringBuilder("hello");
+
+        sb.delete(3,5);
+
+        System.out.println(sb);
+    }
+}
+output
+hel
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        StringBuilder sb = new StringBuilder("hello");
+
+        sb.replace(0,3,"yo");
+
+        System.out.println(sb);
+    }
+}
+output
+yolo
+public class Main {
+    public static void main(String[] args) {
+
+        StringBuilder sb = new StringBuilder("java");
+
+        System.out.println(sb.charAt(2));
+    }
+}
+output;
+v
+public class Main {
+    public static void main(String[] args) {
+
+        StringBuilder sb = new StringBuilder("java");
+        sb.setCharAt(0,'k');
+
+        System.out.println(sb);
+    }
+}
+kava
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter  a sentence:");
+        String s = sc.nextLine();
+        StringBuilder sb = new StringBuilder(s);
+        for(int i = 0 ; i<sb.length();i++){
+            if(sb.charAt(i)==' '){
+                sb.deleteCharAt(i);
+                i++;
+            }
+        }
+        
+
+        System.out.println(sb);
+    }
+}
+output
+enter  a sentence:
+i can do it
+icandoit
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter  a sentence:");
+        String s = sc.nextLine();
+        StringBuilder sb = new StringBuilder(s);
+            if(sb.length()>=2){
+                sb.deleteCharAt(sb.length()-1);
+                sb.deleteCharAt(0);
+            }else{
+                System.out.println("Enter at least 3 characters");
+            }
+            System.out.println(sb);
+            }
+        }
+ 
+output
+enter  a sentence:
+hello everyone
+ello everyon
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter a sentence:");
+        String s = sc.nextLine();
+
+        if (s.length() >= 3) {
+            StringBuilder sb = new StringBuilder(s);
+
+            String last = sb.substring(sb.length() - 3);
+            String rev = new StringBuilder(last).reverse().toString();
+
+            sb.replace(sb.length() - 3, sb.length(), rev);
+
+            System.out.println(sb);
+        } else {
+            System.out.println("Enter at least 3 characters");
+        }
+    }
+}
+output;
+Enter a sentence:
+i have new mobilphone
+i have new mobilpheno
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.io.IOException;
+
+public class Main {
+    public static void main(String[] args) throws IOException {
+
+        BufferedReader br = new BufferedReader(
+            new InputStreamReader(System.in)
+        );
+
+        System.out.println("Enter your name:");
+
+        String name = br.readLine();
+
+        System.out.println("Welcome " + name);
+    }
+}
+output;
+Enter your name:
+nandhini
+Welcome nandhini
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.io.IOException;
+
+public class Main {
+    public static void main(String[] args) throws IOException {
+
+        BufferedReader br = new BufferedReader(
+            new InputStreamReader(System.in)
+        );
+
+        System.out.println("Enter electricity units:");
+        int units = Integer.parseInt(br.readLine());
+
+        int bill;
+
+        if (units <= 100) {
+            bill = units * 2;
+        } 
+        else if (units <= 200) {
+            bill = (100 * 2) + (units - 100) * 3;
+        } 
+        else {
+            bill = (100 * 2) + (100 * 3) + (units - 200) * 5;
+        }
+
+        System.out.println("Electricity bill: Rs " + bill);
+    }
+}
+output
+Enter electricity units:
+400
+Electricity bill: Rs 1500
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.io.IOException;
+
+public class Main {
+    public static void main(String[] args) throws IOException {
+
+        BufferedReader br = new BufferedReader(
+            new InputStreamReader(System.in)
+        );  
+        System.out.println("Enter starting number:");
+            int start = Integer.parseInt(br.readLine());
+        System.out.println("Enter ending numbers:");
+        int end = Integer.parseInt(br.readLine());
+
+        int even = 0,odd = 0;
+
+        for(int i = start;i<=end;i++){
+            if(i%2==0){
+                even++;
+                
+            }else{
+                odd++;
+            }
+        }
+    }    
+}
+
+output;
+Enter starting number:
+67
+Enter ending numbers:
+9
+public class Main {
+    public static void main(String[] args) {
+
+        StringBuilder sb = new StringBuilder("welcome to the java programming");
+
+        sb.delete(5, 13);
+
+        System.out.println(sb);
+    }
+}
+output
+public class Main {
+    public static void main(String[] args) {
+
+        StringBuilder sb = new StringBuilder("welcome to the java programming");
+
+        sb.delete(5, 13);
+
+        System.out.println(sb);
+    }
+}
+output
+welcoe java programming
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+
+        StringBuilder sb = new StringBuilder("welcome to the java programming");
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("enter the student name");
+        String name = sc.nextLine();
+
+        sb.append(" ");
+        sb.append(name);
+
+        System.out.println(sb);
+
+        sc.close();
+    }
+}
+output;
+enter the student name
+nandhini
+welcome to the java programming nandhini
